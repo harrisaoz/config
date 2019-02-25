@@ -7,17 +7,18 @@
     <parent>
         <groupId>au.id.ah</groupId>
         <artifactId>scala-project-parent-pom</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0</version>
     </parent>
 
     <artifactId>config</artifactId>
-    <version>${config.version}</version>
+    <version>1.0</version>
+    <name>${project.groupId}:${project.artifactId}</name>
 
     <dependencies>
         <dependency>
             <groupId>au.id.ah</groupId>
             <artifactId>simple-io</artifactId>
-            <version>${simple-io.version}</version>
+            <version>1.0</version>
         </dependency>
 
         <dependency>
