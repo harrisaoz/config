@@ -1,6 +1,6 @@
 package au.id.ah.config;
 
-import au.id.ah.function.Function;
+import au.id.ah.efunc.Function;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -1,4 +1,6 @@
-package au.id.ah.config
+package au.id.ah.config.test
+
+import au.id.ah.config.PropertiesFromInputStream
 
 import java.io.{IOException, InputStream}
 import java.util.Properties
@@ -12,7 +14,7 @@ import org.specs2.runner.JUnitRunner
  */
 @RunWith(classOf[JUnitRunner])
 class PropertiesFromInputStreamSpec extends mutable.Specification {
-  val streamToProperties: au.id.ah.function.Function[InputStream, Properties, IOException] =
+  val streamToProperties: au.id.ah.efunc.Function[InputStream, Properties, IOException] =
     new PropertiesFromInputStream
 
   def emptyInputStream = new InputStream {
